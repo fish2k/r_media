@@ -22,7 +22,7 @@ body {
   font-family: var(--hauss);
   font-size: 16px;
 
-  background-color: #fff;
+  background-color: white;
   color: var(--black);
 }
 
@@ -224,7 +224,7 @@ body {
 .offer-post-title {
   font-family: var(--navigo);
   font-size: 24px;
-  color: #fff;
+  color: white;
   text-align: center;
   line-height: 1.25;
   margin-top: 12px;
@@ -240,7 +240,7 @@ body {
   background-color: transparent;
   font-size: 14px;
   padding: 0px 11px;
-  color: #fff;
+  color: white;
 }
 
 .offer-post-input::placeholder {
@@ -282,7 +282,7 @@ body {
   padding-top: 41px;
   padding-bottom: 40px;
   background-color: var(--gray);
-  color: #fff;
+  color: white;
 }
 
 .side-logo-footer {
@@ -297,9 +297,13 @@ body {
 }
 
 .main-footer-link {
-  color: #fff;
+  color: white;
   font-weight: 500;
   margin-right: 17px;
+}
+
+.main-footer-link:hover {
+  color: white;
 }
 
 .main-footer-pages .main-footer-link {
