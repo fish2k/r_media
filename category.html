@@ -4,14 +4,37 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <link rel="stylesheet" href="fonts/hauss/stylesheet.css">
   <link rel="stylesheet" href="fonts/navigo/style.css">
+  <link rel="stylesheet" href="css/modal.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
 
   <title>R-Media</title>
+
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+  <div class="responsive-block">
+    <div class="responsive-header">
+      <div class="header-burger">
+        <div class="burger-line line-1"></div>
+        <div class="burger-line line-2"></div>
+        <div class="burger-line line-3"></div>
+      </div>
+
+      <a href="/" class="header-logo"><img src="images/logo-rmedia.svg" alt=""></a>
+
+      <div class="responsive-search">
+        <img src="images/search.svg" alt="">
+      </div>
+    </div>
+  </div>
+
   <div class="page-body">
     <div class="container">
       <div class="row">
@@ -21,29 +44,33 @@
               <img src="images/logo-rmedia.svg" alt="R-Media">
             </a>
   
-            <div class="side-navigations">
-              <ul class="side-nav side-nav-main">
-                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Работа</a></li>
-                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Бизнес</a></li>
-                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Инвестиции</a></li>
-                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link active">Жизнь</a></li>
-                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Путешествия</a></li>
-                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Недвижимость</a></li>
-              </ul>
+            <div class="side-nav-wrap">
+              <div class="responsive-item blog-title">Блог Райффайзенбанка</div>
+
+              <div class="side-navigations">
+                <ul class="side-nav side-nav-main">
+                  <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Работа</a></li>
+                  <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Бизнес</a></li>
+                  <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Инвестиции</a></li>
+                  <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link active">Жизнь</a></li>
+                  <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Путешествия</a></li>
+                  <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Недвижимость</a></li>
+                </ul>
+      
+                <ul class="side-nav">
+                  <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">О проекте</a></li>
+                  <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Авторы</a></li>
+                  <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">#финансовая игра</a></li>
+                  <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">#raiffeisen</a></li>
+                </ul>
+              </div>
     
-              <ul class="side-nav">
-                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">О проекте</a></li>
-                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Авторы</a></li>
-                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">#финансовая игра</a></li>
-                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">#raiffeisen</a></li>
-              </ul>
-            </div>
-  
-            <div class="side-socials">
-              <a href="javascript:void(0)" class="side-socials-item"><img src="images/socials/vk.svg" alt=""></a>
-              <a href="javascript:void(0)" class="side-socials-item"><img src="images/socials/tw.svg" alt=""></a>
-              <a href="javascript:void(0)" class="side-socials-item"><img src="images/socials/fb.svg" alt=""></a>
-              <a href="javascript:void(0)" class="side-socials-item"><img src="images/socials/ig.svg" alt=""></a>
+              <div class="side-socials">
+                <a href="javascript:void(0)" class="side-socials-item"><img src="images/socials/vk.svg" alt=""></a>
+                <a href="javascript:void(0)" class="side-socials-item"><img src="images/socials/tw.svg" alt=""></a>
+                <a href="javascript:void(0)" class="side-socials-item"><img src="images/socials/fb.svg" alt=""></a>
+                <a href="javascript:void(0)" class="side-socials-item"><img src="images/socials/ig.svg" alt=""></a>
+              </div>
             </div>
           </div>
         </div>
@@ -59,7 +86,7 @@
                 <meta itemprop="position" content="2">
               </li>
             </ul>
-            <h1 class="section-heading">Жизнь</h1>
+            <h1 class="section-heading big-heading">Жизнь</h1>
           </div>
 
           <div class="main-blog-posts">
@@ -98,14 +125,16 @@
               <a href="javascript:void(0)" class="blog-post-title">Новогодний стол: сколько стоят лучшие продукты <br>по версии Роскачества</a>
             </div>
             <div class="offer-post">
-              <div class="offer-post-title">
-                Предложите<br>
-                свою тему!
+              <div class="offer-post-inner">
+                <div class="offer-post-title">
+                  Предложите<br>
+                  свою тему!
+                </div>
+                <form class="offer-post-form">
+                  <input type="text" class="offer-post-input" placeholder="Напишите о...">
+                  <button class="offer-post-btn button-default">Предложить</button>
+                </form>
               </div>
-              <form class="offer-post-form">
-                <input type="text" class="offer-post-input" placeholder="Напишите о...">
-                <button class="offer-post-btn button-default">Предложить</button>
-              </form>
             </div>
             <div class="blog-post">
               <a href="javascript:void(0)" class="blog-post-image" style="background-image: url(images/post-images/7.png);"></a>
@@ -195,6 +224,6 @@
       </div>
     </div>
   </div>
-
+  <script src="js/main.js"></script>
 </body>
 </html>

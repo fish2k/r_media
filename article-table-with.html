@@ -7,15 +7,34 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <link rel="stylesheet" href="fonts/hauss/stylesheet.css">
   <link rel="stylesheet" href="fonts/navigo/style.css">
+  <link rel="stylesheet" href="css/modal.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
 
   <title>R-Media</title>
 
   <script src="http://code.jquery.com/jquery.min.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+  <div class="responsive-block">
+    <div class="responsive-header">
+      <div class="header-burger">
+        <div class="burger-line line-1"></div>
+        <div class="burger-line line-2"></div>
+        <div class="burger-line line-3"></div>
+      </div>
+
+      <a href="/" class="header-logo"><img src="images/logo-rmedia.svg" alt=""></a>
+
+      <div class="responsive-search">
+        <img src="images/search.svg" alt="">
+      </div>
+    </div>
+  </div>
+
   <div class="page-body">
     <div class="container">
       <div class="row">
@@ -25,29 +44,33 @@
               <img src="images/logo-rmedia.svg" alt="R-Media">
             </a>
   
-            <div class="side-navigations">
-              <ul class="side-nav side-nav-main">
-                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Работа</a></li>
-                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Бизнес</a></li>
-                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Инвестиции</a></li>
-                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Жизнь</a></li>
-                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Путешествия</a></li>
-                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Недвижимость</a></li>
-              </ul>
+            <div class="side-nav-wrap">
+              <div class="responsive-item blog-title">Блог Райффайзенбанка</div>
+
+              <div class="side-navigations">
+                <ul class="side-nav side-nav-main">
+                  <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Работа</a></li>
+                  <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Бизнес</a></li>
+                  <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Инвестиции</a></li>
+                  <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Жизнь</a></li>
+                  <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Путешествия</a></li>
+                  <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Недвижимость</a></li>
+                </ul>
+      
+                <ul class="side-nav">
+                  <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">О проекте</a></li>
+                  <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link active">Авторы</a></li>
+                  <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">#финансовая игра</a></li>
+                  <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">#raiffeisen</a></li>
+                </ul>
+              </div>
     
-              <ul class="side-nav">
-                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">О проекте</a></li>
-                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link active">Авторы</a></li>
-                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">#финансовая игра</a></li>
-                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">#raiffeisen</a></li>
-              </ul>
-            </div>
-  
-            <div class="side-socials">
-              <a href="javascript:void(0)" class="side-socials-item"><img src="images/socials/vk.svg" alt=""></a>
-              <a href="javascript:void(0)" class="side-socials-item"><img src="images/socials/tw.svg" alt=""></a>
-              <a href="javascript:void(0)" class="side-socials-item"><img src="images/socials/fb.svg" alt=""></a>
-              <a href="javascript:void(0)" class="side-socials-item"><img src="images/socials/ig.svg" alt=""></a>
+              <div class="side-socials">
+                <a href="javascript:void(0)" class="side-socials-item"><img src="images/socials/vk.svg" alt=""></a>
+                <a href="javascript:void(0)" class="side-socials-item"><img src="images/socials/tw.svg" alt=""></a>
+                <a href="javascript:void(0)" class="side-socials-item"><img src="images/socials/fb.svg" alt=""></a>
+                <a href="javascript:void(0)" class="side-socials-item"><img src="images/socials/ig.svg" alt=""></a>
+              </div>
             </div>
           </div>
         </div>
@@ -284,7 +307,19 @@
                     </div>
                   </div>
 
-                  <div class="table-slider-nav"></div>
+                  <div class="table-slider-nav">
+                    <div class="table-nav-item table-nav-prev">    
+                      <svg class="table-nav-arrow" width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.13945 15.71L0.439453 8.00004L8.13945 0.290039L9.55945 1.71004L3.25945 8.00004L9.55945 14.29L8.13945 15.71Z"/>
+                      </svg>
+                    </div>
+                    <div class="table-nav-pagination"></div>
+                    <div class="table-nav-item table-nav-next">
+                      <svg class="table-nav-arrow" width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.70906 15.71L0.289062 14.29L6.58906 8.00004L0.289062 1.71004L1.70906 0.290039L9.40906 8.00004L1.70906 15.71Z"/>
+                      </svg>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
