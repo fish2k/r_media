@@ -28,9 +28,43 @@
     .side-right {
         margin-left: var(--sidebar-width);
     }
+
+    .offer-post-inner {
+        height: auto;
+    }
 }
 
 @media (max-width: 768px) {
+    .table {
+        font-size: 14px;
+    }
+
+    .table th,
+    .table td {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .search {
+        display: block;
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        width: 100%;
+        bottom: 0;
+
+        z-index: 4;
+        background-color: #E9EAEA;
+
+        padding: 15px;
+
+        transition: all .2s ease;
+    }
+
+    .state-search .search {
+        left: 0;
+    }
+
     .article-heading {
         display: none;
     }

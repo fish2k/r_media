@@ -3,10 +3,18 @@
   $(document).ready(function() {
     var body = $('body'),
         burger = $('.header-burger'),
-        search = $('.header-search')
+        searchResponsive = $('.responsive-search')
 
     burger.click(function () {
+      body.removeClass('state-search')
       body.toggleClass('state-nav')
+    })
+
+    searchResponsive.click(function () {
+      body.removeClass('state-nav')
+      body.toggleClass('state-search')
+
+      $('.search-form-style').focus()
     })
 
 
