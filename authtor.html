@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
 
   <link rel="stylesheet" href="fonts/hauss/stylesheet.css">
   <link rel="stylesheet" href="fonts/navigo/style.css">
@@ -23,19 +23,19 @@
   
             <div class="side-navigations">
               <ul class="side-nav side-nav-main">
-                <li class="side-nav-item"><a href="a" class="side-nav-link">Работа</a></li>
-                <li class="side-nav-item"><a href="a" class="side-nav-link">Бизнес</a></li>
-                <li class="side-nav-item"><a href="a" class="side-nav-link">Инвестиции</a></li>
-                <li class="side-nav-item"><a href="a" class="side-nav-link">Жизнь</a></li>
-                <li class="side-nav-item"><a href="a" class="side-nav-link">Путешествия</a></li>
-                <li class="side-nav-item"><a href="a" class="side-nav-link">Недвижимость</a></li>
+                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Работа</a></li>
+                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Бизнес</a></li>
+                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Инвестиции</a></li>
+                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Жизнь</a></li>
+                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Путешествия</a></li>
+                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">Недвижимость</a></li>
               </ul>
     
               <ul class="side-nav">
-                <li class="side-nav-item"><a href="a" class="side-nav-link">О проекте</a></li>
-                <li class="side-nav-item"><a href="a" class="side-nav-link">Авторы</a></li>
-                <li class="side-nav-item"><a href="a" class="side-nav-link">#финансовая игра</a></li>
-                <li class="side-nav-item"><a href="a" class="side-nav-link">#raiffeisen</a></li>
+                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">О проекте</a></li>
+                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link active">Авторы</a></li>
+                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">#финансовая игра</a></li>
+                <li class="side-nav-item"><a href="javascript:void(0)" class="side-nav-link">#raiffeisen</a></li>
               </ul>
             </div>
   
@@ -48,16 +48,56 @@
           </div>
         </div>
         <div class="main">
-          <div class="main-pinned-post">
-            <div class="blog-post">
-              <a href="javascript:void(0)" class="blog-post-image" style="background-image: url(images/post-images/0.png);"></a>
-              <div class="blog-post-categories">
-                <a href="javascript:void(0)" class="blog-post-cat">инвестиции</a>
+          <div class="section-head">
+            <ul itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumbs">
+              <li class="breadcrumbs-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                <a href="javascript:void(0)" class="breadcrumbs-link" itemprop="item"><span itemprop="item">R-Media</span></a>
+                <meta itemprop="position" content="1">
+              </li>
+              <li class="breadcrumbs-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                <a href="javascript:void(0)" class="breadcrumbs-link" itemprop="item"><span itemprop="item">Авторы</span></a>
+                <meta itemprop="position" content="2">
+              </li>
+              <li class="breadcrumbs-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                <a href="javascript:void(0)" class="breadcrumbs-link" itemprop="item"><span itemprop="item">Наталья Смирнова</span></a>
+                <meta itemprop="position" content="3">
+              </li>
+            </ul>
+          </div>
+
+          <div class="section-content">
+            <div class="authtor-profile">
+              <div class="authtor-item">
+                <a href="javascript:void(0)" class="authtor-photo" style="background-image: url(images/authtor-photo.jpg);"></a>
+                <div class="authtor-info">
+                  <div class="authtor-name">Наталья Смирнова</div>
+                  <div class="authtor-spec">Финансовый советник</div>
+                  <div class="authtor-socials">
+                    <a href="javascript:void(0)" class="authtor-socials-item">
+                      <img src="images/socials/vk.svg" alt="">
+                    </a>
+                    <a href="javascript:void(0)" class="authtor-socials-item">
+                      <img src="images/socials/tw.svg" alt="">
+                    </a>
+                    <a href="javascript:void(0)" class="authtor-socials-item">
+                      <img src="images/socials/fb.svg" alt="">
+                    </a>
+                  </div>
+                </div>
               </div>
-              <a href="javascript:void(0)" class="blog-post-title">Куда разместить валюту? Альтернатива вкладу</a>
             </div>
           </div>
+
           <div class="main-blog-posts">
+            <div class="offer-post">
+              <div class="offer-post-title">
+                Задайте автору<br>вопрос 
+              </div>
+              <form class="offer-post-form">
+                <input type="text" class="offer-post-input" placeholder="Напишите о...">
+                <button class="offer-post-btn button-default">Задать вопрос</button>
+              </form>
+            </div>
             <div class="blog-post">
               <a href="javascript:void(0)" class="blog-post-image" style="background-image: url(images/post-images/1.png);"></a>
               <div class="blog-post-categories">
@@ -91,16 +131,6 @@
                 <a href="javascript:void(0)" class="blog-post-cat">жизнь</a>
               </div>
               <a href="javascript:void(0)" class="blog-post-title">Новогодний стол: сколько стоят лучшие продукты <br>по версии Роскачества</a>
-            </div>
-            <div class="offer-post">
-              <div class="offer-post-title">
-                Предложите<br>
-                свою тему!
-              </div>
-              <form class="offer-post-form">
-                <input type="text" class="offer-post-input" placeholder="Напишите о...">
-                <button class="offer-post-btn">Предложить</button>
-              </form>
             </div>
             <div class="blog-post">
               <a href="javascript:void(0)" class="blog-post-image" style="background-image: url(images/post-images/7.png);"></a>
@@ -144,12 +174,7 @@
               </a>
             </div>
           </div>
-  
-          <div class="main-loading">
-            <img src="images/loading.png" alt="Загрузка..." class="main-loading-icon">
-          </div>
         </div>
-  
         <a href="javascript:void(0)" class="search-btn">
           <img src="images/search.svg" alt="Поиск...">
         </a>
