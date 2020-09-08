@@ -17,6 +17,10 @@
   --sidebar-left-width: 294px;
 }
 
+[class*=state-] {
+  overflow: hidden;
+}
+
 ::selection {
   background-color: var(--ocean);
   color: #fff;
