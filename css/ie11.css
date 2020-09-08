@@ -1,6 +1,39 @@
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
     /* IE10+ specific styles go here */
-    /* body {
-        background-color: red;
-    } */
+    .side {
+        flex-basis: 191px;
+        max-width: 191px;
+    }
+
+    .main {
+        flex-basis: 870px;
+        max-width: 870px;
+    }
+
+    * {
+        font-family: "ALS Hauss", sans-serif;
+    }
+
+    a {
+        color: #00A5BC
+    }
+
+    a:hover {
+        color: #00A5BC
+    }
+
+    .page-footer {
+        background-color: #404247;
+    }
+
+    .side-nav-link,
+    .side-nav-link:hover,
+    .blog-post-title,
+    .blog-post-title:hover {
+        color: #2B2D33;
+    }
+
+    .side-nav-link::before {
+        background-color: #E5F0F2;
+    }
 }
