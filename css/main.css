@@ -1167,3 +1167,21 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+.search-form {
+  position: relative;
+}
+
+.reset-search {
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 43px;
+  opacity: 0.3;
+
+  background-image: url(../images/search-close.svg);
+  background-position: right center;
+  background-repeat: no-repeat;
+}

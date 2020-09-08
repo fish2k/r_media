@@ -35,7 +35,8 @@
 
   <div class="search">
     <form class="search-form">
-      <input type="text" class="search-form-style">
+      <input type="text" class="search-form-style r-search-query">
+      <div class="reset-search"></div>
     </form>
   </div>
 
@@ -91,6 +92,23 @@
               </li>
             </ul>
             <h1 class="section-heading big-heading">Жизнь</h1>
+            <div class="section-subheading responsive-subheading">
+              Правильно поставленные вопросы и грамотные ответы
+              от независимого эксперта помогут лучше управлять деньгами в обычной жизни
+              и сложных ситуациях: от развода до болезни члена семьи.
+            </div>
+
+            <style>
+              .responsive-subheading {
+                display: none;
+              }
+
+              @media (max-width: 768px) {
+                .responsive-subheading {
+                  display: block;
+                }
+              }
+            </style>
           </div>
 
           <div class="main-blog-posts">

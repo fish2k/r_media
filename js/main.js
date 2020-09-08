@@ -41,6 +41,11 @@
       }
     });
 
+    $('.reset-search').click(function () {
+      $('.r-search-query').val('').focus()
+
+    })
+
     // продолжаем писать JS туть
   });
 

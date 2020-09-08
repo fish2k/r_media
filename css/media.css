@@ -211,12 +211,45 @@
         width: 10px;
         height: 10px;
     }
+
+    .side-right .side-authtor {
+        display: none;
+    }
+
+    .responsive-authtor .side-authtor {
+        padding-top: 20px;
+        padding-bottom: 0;
+
+        border-top: 1px solid #d5d5d5;
+        border-bottom: 1px solid #d5d5d5;
+    }
+
+    .authors-subheading {
+        display: none;
+    }
 }
 
 @media (max-width: 480px) {
     .authtor-profile .authtor-item {
         flex-direction: column;
         align-items: unset;
+    }
+
+    .main-loading {
+        height: 100px;
+    }
+
+    .page-footer {
+        margin-top: 10px;
+    }
+
+    .article-show-comments {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .article-share {
+        justify-content: center;
     }
 
     .authtor-profile .authtor-info {
