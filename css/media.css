@@ -231,6 +231,10 @@
     .authors-subheading {
         display: none;
     }
+
+    .responsive-authtor {
+        display: block;
+    }
 }
 
 @media (max-width: 480px) {
