@@ -235,6 +235,10 @@
         align-items: unset;
     }
 
+    .section-content {
+        margin-top: 0;
+    }
+
     .main-loading {
         height: 100px;
     }

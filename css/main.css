@@ -221,6 +221,7 @@ body {
   flex-direction: column;
   overflow: hidden;
   break-inside: avoid;
+  min-height: 100%;
   
   margin-bottom: 24px;
 }
@@ -1063,6 +1064,7 @@ body {
 }
 
 .responsive-block::before {
+  display: none;
   position: absolute;
   content: '';
   bottom: 0;
@@ -1072,6 +1074,10 @@ body {
 
   background-color: var(--black);
   opacity: 0.23;
+}
+
+.page-home .responsive-block::before {
+  display: block;
 }
 
 .responsive-homepage-link {
