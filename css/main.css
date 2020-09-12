@@ -147,7 +147,8 @@ body {
 }
 
 .side-socials {
-  display: flex;
+  display: none;
+  /* display: flex; */
   justify-content: space-between;
   align-items: center;
 
@@ -559,6 +560,7 @@ body {
 
 .authtor-socials {
   margin-top: 31px;
+  display: none;
 }
 
 .authtor-socials-item {
