@@ -235,6 +235,10 @@
     .responsive-authtor {
         display: block;
     }
+
+    .main-pinned-post .blog-post-title {
+        padding-bottom: 24px;
+    }
 }
 
 @media (max-width: 480px) {
