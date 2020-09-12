@@ -36,4 +36,64 @@
     .side-nav-link::before {
         background-color: #E5F0F2;
     }
+
+    .main-middle {
+        flex-basis: 576px;
+        max-width: 576px;
+    }
+
+    .side-right {
+        flex-basis: 274px;
+        max-width: 274px;
+    }
+
+    .side-authtor .authtor-photo {
+        flex-basis: 72px;
+        max-width: 72px;
+        width: 72px;
+        height: 72px;
+        border-radius: 70px;
+    }
+
+    .authtor-photo {
+        flex-basis: 80px;
+        max-width: 80px;
+        width: 80px;
+        height: 80px;
+        border-radius: 80px;
+    }
+
+    .side-authtor .authtor-info {
+        flex-basis: calc(100% - 72px);
+        max-width: calc(100% - 72px);
+    }
+
+    .article-content > ul > li::before,
+    .article-content > ul > li > ul > li::before {
+        background-color: #45A3B2;
+    }
+
+    .authtor-name,
+    .authtor-name:hover {
+        color: #45A3B2
+    }
+
+    .article-share-item,
+    .article-share-item:hover,
+    .article-show-comments,
+    .article-show-comments:hover,
+    .authtor-spec,
+    .authtor-spec:hover,
+    .authtor-more,
+    .authtor-more:hover {
+        color: #000
+    }
+
+    .button-default {
+        background-color: #FEE600;
+    }
+
+    .offer-post-title {
+        font-family: "Navigo", sans-serif;
+    }
 }

@@ -358,13 +358,13 @@ body {
 }
 
 .main-footer-link {
-  color: white;
+  color: #fbfbfb;
   font-weight: 500;
   margin-right: 17px;
 }
 
 .main-footer-link:hover {
-  color: white;
+  color: #fbfbfb;
 }
 
 .main-footer-pages .main-footer-link {
@@ -895,6 +895,7 @@ body {
 
 .article-picture {
   margin-top: 20px;
+  text-align: center;
 }
 
 .article-picture-caption {
@@ -1190,4 +1191,8 @@ body {
   background-image: url(../images/search-close.svg);
   background-position: right center;
   background-repeat: no-repeat;
+}
+
+.responsive-authtor {
+  display: none;
 }
