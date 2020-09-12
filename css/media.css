@@ -243,6 +243,14 @@
         align-items: unset;
     }
 
+    .section-content {
+        margin-top: 0;
+    }
+
+    .main-pinned-post {
+        text-align: left;
+    }
+
     .main-loading {
         height: 100px;
     }
