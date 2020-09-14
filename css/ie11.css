@@ -33,6 +33,10 @@
         color: #2B2D33;
     }
 
+    .blog-post {
+        min-height: 100%;
+    }
+
     .side-nav-link::before {
         background-color: #E5F0F2;
     }
